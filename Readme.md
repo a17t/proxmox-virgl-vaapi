@@ -11,5 +11,10 @@ To make hardware video acceleration available in virtual machines, some steps ar
 ## Step By Step
 
 ### virglrenderer
+´´´
+apt install libgbm-dev
+git clone https://gitlab.freedesktop.org/virgl/virglrenderer.git
+meson build -Dvideo=true
+´´´
 
 ### qemu
